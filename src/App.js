@@ -5,7 +5,7 @@ import AboutUs from './Home/AboutUs/AboutUs';
 import JoinUs from './Home/JoinUs/Join_Us';
 import Footer from './Footer/Footer';
 import Contacts from './Contacts/Contacts';
-import { BrowserRouter as Router,Route, Routes } from 'react-router-dom';
+import { HashRouter as Router,Route, Routes } from 'react-router-dom';
 
 import { useScroll, useTransform } from 'framer-motion';
 
