@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/github.io/Ragam_css/static/css/main.d813e79b.css",
-    "main.js": "/github.io/Ragam_css/static/js/main.e78de382.js",
+    "main.js": "/github.io/Ragam_css/static/js/main.07ad4392.js",
     "static/js/787.aabaec23.chunk.js": "/github.io/Ragam_css/static/js/787.aabaec23.chunk.js",
     "index.html": "/github.io/Ragam_css/index.html",
     "main.d813e79b.css.map": "/github.io/Ragam_css/static/css/main.d813e79b.css.map",
-    "main.e78de382.js.map": "/github.io/Ragam_css/static/js/main.e78de382.js.map",
+    "main.07ad4392.js.map": "/github.io/Ragam_css/static/js/main.07ad4392.js.map",
     "787.aabaec23.chunk.js.map": "/github.io/Ragam_css/static/js/787.aabaec23.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d813e79b.css",
-    "static/js/main.e78de382.js"
+    "static/js/main.07ad4392.js"
   ]
 }
