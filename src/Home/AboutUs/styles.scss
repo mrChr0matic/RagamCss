@@ -1,0 +1,59 @@
+.about-section{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    margin-bottom: 233px;
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 71.25rem;
+
+        img{
+            width: 19.5rem;
+        }
+
+        .about-text{
+            height: 100%;
+            width:  45.8125rem;
+
+            h1{
+                font-family: 'IBM Plex Serif', serif;
+                font-weight: 600;
+                font-size: 2.375rem;
+                line-height: 49.4px ;
+                margin-bottom: 36px;
+            }
+
+            .content-1,.content-2{
+                font-family: 'Inter', sans-serif;
+                font-weight: 400;
+                size: 1.125rem;
+                line-height: 30px;
+            }
+
+            .content-1{
+                margin-bottom: 24px;
+            }
+        }
+    }
+}
+
+@media(max-width:1050px){
+    .about-section{
+        .container{
+            flex-direction: column-reverse;
+            gap: 3.45rem;
+            width: 100%;
+
+            .about-text{
+                text-align: center;
+                width: 100%;
+
+                .content-1,.content-2{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

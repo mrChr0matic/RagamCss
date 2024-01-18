@@ -1,0 +1,25 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    padding: 0 46px 0 46px;
+    height: 4.5rem;
+    
+    .navbar-items{
+        display: flex;
+        gap: 42px;
+        align-items: center;
+    }
+}
+
+@media(max-width:650px){
+    .navbar{
+        padding-top:20px ;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}

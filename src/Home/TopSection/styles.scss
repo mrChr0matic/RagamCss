@@ -1,0 +1,136 @@
+.top-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6% 0 0 0;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 0 2% 0;
+        margin-bottom: 1%;
+        gap: 78px;
+        width: 71.25rem;
+
+        .container-text{
+            width: 40.125rem;
+            height: 21.125rem;
+            
+            h1{
+                font-family: 'IBM Plex Serif', serif;
+                font-size: 3.5rem;
+                font-weight: 700;
+                width: 38.1875rem;
+                height: 9.125rem;
+            }
+    
+            p{
+                height: 3.625rem;
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-weight: 300;
+                font-size: 1.375rem;
+                color: #000000;
+                line-height: normal;
+                margin-bottom: 20px;
+            }
+        }
+
+        .explore-button{
+            margin-top: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-weight: 500;
+            font-size: 20px;
+            width: 166px;
+            height: 62px;
+            background-color: #000;
+            border-radius: 30px;
+            color: #fff;
+            text-align: center;
+            position: relative;
+        }
+        
+        .explore-button::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: inherit;
+            color: grey;
+            transition: all 200ms ease-in-out;
+            z-index: -1;
+        }
+        
+        .explore-button:hover{
+            color: orange;
+        }
+
+        .explore-button:hover::before{
+            top:-10px;
+            left:-10px;
+            background-color: grey;
+        }
+
+
+    }
+
+    .learn-more{
+        width: 112px;
+        height: 69px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 179px;
+        
+        a{
+            text-decoration: none;
+            color: #00000080;
+
+        }
+
+        .learn-more-arrow{
+            color:#00000080;
+            background-color: #fff;
+        }
+    }
+}
+
+@media(max-width:1170px){
+    .top-section{
+        .container{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            img{
+                width: 320px;
+            }
+            .container-text{
+                height: fit-content;
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                width: 100%;
+                text-align: center;
+                gap: 1.5rem;
+                h1{
+                    width: 100%;
+                    height: fit-content;
+                }
+                p{
+                    width: 85%;
+                    height: fit-content;
+                }
+            }
+        }
+    }
+}
