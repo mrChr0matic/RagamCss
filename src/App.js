@@ -13,7 +13,7 @@ function App() {
   const { scrollYProgress} = useScroll()
   const rotate = useTransform(scrollYProgress, [0, 1], [0, 100]);
   return (
-    <Router basename={'/RagamCss'}>
+    <Router>
       <div className="App">
         <Navbar/>
         <Routes>
