@@ -1,5 +1,6 @@
 import './styles.scss'
 import { motion } from 'framer-motion'
+
 export default function TopSection({ rotate }){
     return(
         <motion.div className="top-section"

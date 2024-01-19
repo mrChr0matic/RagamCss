@@ -42,7 +42,7 @@ export default function Footer() {
   return (
     <div className='footer'>
       <div className='footer-logo'>
-        <img src='./nitcLogo.png' alt='nitcLogo' />
+        <img src='../images/nitcLogo.png' alt='nitcLogo' />
         <Logo />
       </div>
       <div className='footer-tray'>
