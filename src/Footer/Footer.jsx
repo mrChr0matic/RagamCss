@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Logo from '../Navbar/Logo';
 import './styles.scss';
+import nitcLogo from '../images/nitcLogo.png'
 
 const socialMediaIcons = [
   {
@@ -42,7 +43,7 @@ export default function Footer() {
   return (
     <div className='footer'>
       <div className='footer-logo'>
-        <img src='/images/nitcLogo.png' alt='nitcLogo' />
+        <img src={nitcLogo} alt='nitcLogo' />
         <Logo />
       </div>
       <div className='footer-tray'>

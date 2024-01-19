@@ -1,15 +1,17 @@
 import './styles.scss'
 import { motion } from 'framer-motion'
+import icon2 from "../../images/icon2.png"
+
 
 export default function AboutUs({rotate}){
     return(
-        <motion.div className="about-section"
+        <motion.section className="about-section"
             initial={{opacity:0,x:100%-200}}
             whileInView={{opacity:1,x:0}}
             id='About'
         >
             <div className="container">
-                <motion.img src="/images/icon2.png" alt="icon2" style={{rotate}}/>
+                <motion.img src={icon2} alt="icon2" style={{rotate}}/>
                 <div className="about-text">
                     <h1>About us</h1>
                     <div className='content-1'>
@@ -27,6 +29,6 @@ export default function AboutUs({rotate}){
                     </div>
                 </div>
             </div>
-        </motion.div>
+        </motion.section>
     )
 }
