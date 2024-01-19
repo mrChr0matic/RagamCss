@@ -17,7 +17,7 @@ export default function TopSection({ rotate }){
                     </button>
                 </div>
                 <motion.img 
-                src="%PUBLIC_URL%/images/icon1.png" 
+                src="/images/icon1.png" 
                 alt="icon1"                                 
                 style={{rotate}}
                 />
