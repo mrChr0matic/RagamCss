@@ -9,7 +9,7 @@ export default function AboutUs({rotate}){
             id='About'
         >
             <div className="container">
-                <motion.img src="../images/icon2.png" alt="icon2" style={{rotate}}/>
+                <motion.img src="/images/icon2.png" alt="icon2" style={{rotate}}/>
                 <div className="about-text">
                     <h1>About us</h1>
                     <div className='content-1'>
