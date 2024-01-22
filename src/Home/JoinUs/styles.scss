@@ -110,7 +110,7 @@
             height: fit-content;
             width: 100%;
             flex-direction: column;
-            gap: 2rem;
+            gap: 100px  ;
             .join-text {
                 width: 100%;
                 text-align: center; 
@@ -123,6 +123,9 @@
                     width: 90%;
                     height: fit-content;
                 }
+                ul{
+                    height: fit-content;
+                }
                 .join-content {
                     width: 100%; 
                     display: flex;
@@ -130,6 +133,7 @@
                     align-items: center;
                     flex-direction: column;
                     gap:1rem;
+                    height: fit-content;
                     .text-items {
                         max-width: 100%;
                         position: relative;
